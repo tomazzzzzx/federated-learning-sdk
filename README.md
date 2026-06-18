@@ -1,19 +1,17 @@
-# Federated Learning Sdk
+# Federated Learning SDK
 
-Federated learning SDK for privacy-preserving distributed training.
+Federated learning SDK for privacy-preserving distributed training across organizations.
+
+## Algorithms
+- FedAvg (Federated Averaging)
+- FedProx (with proximal term)
+- SCAFFOLD (variance reduction)
+- Differential Privacy (DP-SGD with noise)
 
 ## Features
-- FedAvg, FedProx, SCAFFOLD algorithms
-- Differential privacy (DP-SGD)
-- Secure aggregation with Shamir secret sharing
+- Secure aggregation via Shamir secret sharing
 - Simulated and real distributed modes
+- Configurable number of clients and rounds
+- Communication compression
 
-## Architecture
-```
-Client 1 ─┐
-Client 2 ─┤── Aggregator ── Global Model
-Client N ─┘
-```
-
-## License
-MIT
+## License: MIT
